@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Teach Fest 2026</h1>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+    </header>
+    <hr>
+    <main>
+        <h2>Register</h2>
+        <form action="submit_registration.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event">
+                <option value="coding">Coding Contest</option>
+                <option value="web_design">Web Design Challenge</option>
+            </select><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 TechFest | <a href="mailto:">Email</a></p>
+    </footer>
+</body>
+</html>
